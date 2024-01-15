@@ -7,12 +7,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#question {
+	font-size: medium;
+	font-style: bold;
+}
 nav {
 	border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+	padding-left: 10;
 }
 
 .crumb {
@@ -21,11 +25,7 @@ ol {
 }
 
 a {
-	color: orange;
-}
-
-a:visited {
-	color: crimson;
+	color: green;
 }
 
 
@@ -35,4 +35,18 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.button {
+	padding: 18px;
+	font-style: oblique;
+	font-size: small;
+	color: yellow;
+}
+
+.button1 {
+	padding: 18px;
+	font-style: oblique;
+	font-size: small;
+	color: green;
 }

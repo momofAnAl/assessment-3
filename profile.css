@@ -1,0 +1,23 @@
+
+
+#profile-image {
+    width: 1600px;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+#main {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+#about div, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
